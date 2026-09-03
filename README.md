@@ -29,5 +29,5 @@ Setup Notes (Section C script)
 1.	Open SQL Server Management Studio (SSMS) and connect to a local or clean SQL Server instance.
 2.	Open docs/database_schema.sql.
 3.	Execute the script (F5). It will drop RaceDay if it already exists, recreate it, create all six tables with their constraints, seed the data described above, and run a verification query showing row counts per table.
-4.	Expected verification output: Organisers=2, Users=2, Events=3, Categories=7, Enrolments=5, Results=2.
+4.	Expected verification output: Organisers=2, Users=2, Events=3, Categories=7, Enrolments=5, Results=2
 
